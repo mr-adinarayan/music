@@ -1,0 +1,14 @@
+//"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2MDAzMmNlMzYwNjFkZjNiZTljNGQzNCIsImlhdCI6MTcxMTI4OTAzOH0.ZNbtjE-btQF54377C29_CbfzK62I0Q-hHt0fuokGHDQ"
+POST http://localhost:3000/create-blog
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2MDAzMmNlMzYwNjFkZjNiZTljNGQzNCIsImlhdCI6MTcxMTI4OTAzOH0.ZNbtjE-btQF54377C29_CbfzK62I0Q-hHt0fuokGHDQ
+
+{
+    "title":"https fhgf",
+    "banner":"sdfghjkjiuyghjhghjhk",
+    "des":"dertytrfdcvgtredfghbvfrtyghgfyhg",
+    "content":{
+        "blocks":[1,2]
+    },
+    "tags":["1","tag1","tag2"]
+}
